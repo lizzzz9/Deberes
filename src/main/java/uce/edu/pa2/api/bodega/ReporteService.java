@@ -11,7 +11,7 @@ public class ReporteService {
 
     public void generar(Pedido pedido) {
         System.out.println("Se esta generando reporte en PDF para: " + pedido.getCliente());
-    
         notificadorMail.enviar(pedido.getCorreo(), "Tu reporte ha sido generado");
+         System.out.println("-------------Gracias por su compra ------------------");
     }
 }

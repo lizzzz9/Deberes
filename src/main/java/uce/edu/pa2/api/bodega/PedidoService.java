@@ -11,9 +11,10 @@ public class PedidoService {
     
     public void registrar(Pedido pedido) {
         // Lógica para registrar el pedido
-        System.out.println("registrando pedido");
-        System.out.println(" cliente: " + pedido.getCliente());
+         System.out.println("-------registrando pedido--------");
+        System.out.println("cliente: " + pedido.getCliente());
         System.out.println("Total " + pedido.getTotal());
+        System.out.println("producto: " + pedido.getProducto());
         System.out.println("guardando en la base de datos");
 
        
